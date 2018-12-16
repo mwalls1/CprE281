@@ -1,0 +1,5 @@
+module mProj(F,W,X,Y,Z);
+	input W, X, Y, z;
+	Output F;
+	assign F = (X&~Y&Z)|(W&Y&Z|)|(~W&~X&Y&~Z);
+end module;

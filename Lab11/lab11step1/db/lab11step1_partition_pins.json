@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HexA",
+					"strict" : false
+				},
+				{
+					"name" : "HexB",
+					"strict" : false
+				},
+				{
+					"name" : "HexC",
+					"strict" : false
+				},
+				{
+					"name" : "HexD",
+					"strict" : false
+				},
+				{
+					"name" : "HexE",
+					"strict" : false
+				},
+				{
+					"name" : "HexF",
+					"strict" : false
+				},
+				{
+					"name" : "HexG",
+					"strict" : false
+				},
+				{
+					"name" : "W",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

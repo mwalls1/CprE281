@@ -1,0 +1,20 @@
+|BPCircuit
+F <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+Y => inst3.IN0
+Y => inst6.IN2
+Y => inst11.IN0
+Y => inst16.IN0
+Z => inst.IN1
+Z => inst6.IN3
+Z => inst11.IN2
+Z => inst4.IN0
+Z => inst5.IN2
+X => inst.IN2
+X => inst2.IN0
+X => inst7.IN1
+X => inst5.IN1
+W => inst1.IN0
+W => inst7.IN0
+W => inst5.IN0
+
+

@@ -1,0 +1,6 @@
+module NextState2(Clock, B, C, D, Out);
+	input Clock, B, C, D;
+	output Out;
+	
+	assign Out = ((~A&C)|(C&~D)|(A&C&~D));
+endmodule

@@ -1,0 +1,7 @@
+module full_adder(Cin, X, Y, S, Cout);
+	inout Cim, X, Y;
+	output Cout, S;
+	assign S = A^B^C;
+	assign Cout = (A&B)|(A&Cin)|(B&Cin);
+endmodule
+	

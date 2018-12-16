@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Hex0A",
+					"strict" : false
+				},
+				{
+					"name" : "Hex0B",
+					"strict" : false
+				},
+				{
+					"name" : "Hex0C",
+					"strict" : false
+				},
+				{
+					"name" : "Hex0D",
+					"strict" : false
+				},
+				{
+					"name" : "Hex0E",
+					"strict" : false
+				},
+				{
+					"name" : "Hex0F",
+					"strict" : false
+				},
+				{
+					"name" : "Hex0G",
+					"strict" : false
+				},
+				{
+					"name" : "Hex1A",
+					"strict" : false
+				},
+				{
+					"name" : "Hex1B",
+					"strict" : false
+				},
+				{
+					"name" : "Hex1C",
+					"strict" : false
+				},
+				{
+					"name" : "Hex1D",
+					"strict" : false
+				},
+				{
+					"name" : "Hex1E",
+					"strict" : false
+				},
+				{
+					"name" : "Hex1F",
+					"strict" : false
+				},
+				{
+					"name" : "Hex1G",
+					"strict" : false
+				},
+				{
+					"name" : "SelectHex",
+					"strict" : false
+				},
+				{
+					"name" : "ClockRegisters",
+					"strict" : false
+				},
+				{
+					"name" : "RegSel1",
+					"strict" : false
+				},
+				{
+					"name" : "RegSel0",
+					"strict" : false
+				},
+				{
+					"name" : "ClockShift",
+					"strict" : false
+				},
+				{
+					"name" : "Top[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Mult[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Mult[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Top[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Top[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Top[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Top[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Top[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Top[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Top[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Mult[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Mult[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Mult[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Mult[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Mult[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Mult[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

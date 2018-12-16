@@ -1,0 +1,60 @@
+|StateMachine
+Out2 <= OutLogic:inst6.Out2
+Reset => inst2.ACLR
+Reset => inst1.ACLR
+Reset => inst.ACLR
+Clock => inst2.CLK
+Clock => NextState3:inst5.Clock
+Clock => inst1.CLK
+Clock => NextState2:inst4.Clock
+Clock => inst.CLK
+Clock => NextState1:inst3.Clock
+Out0 <= OutLogic:inst6.Out0
+OutMux <= OutLogic:inst6.OutMux
+Out1 <= OutLogic:inst6.Out1
+
+
+|StateMachine|OutLogic:inst6
+A => OutMux.IN1
+A => Out2.IN0
+B => OutMux.IN0
+B => Out2.IN1
+C => Out2.IN1
+C => Out0.DATAIN
+C => OutMux.IN1
+Out2 <= Out2.DB_MAX_OUTPUT_PORT_TYPE
+Out1 <= <GND>
+Out0 <= C.DB_MAX_OUTPUT_PORT_TYPE
+OutMux <= OutMux.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|StateMachine|NextState3:inst5
+Clock => Out.IN0
+B => Out.IN1
+C => Out.IN1
+D => Out.IN1
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|StateMachine|NextState2:inst4
+Clock => Out.IN0
+Clock => Out.IN0
+B => ~NO_FANOUT~
+C => Out.IN1
+C => Out.IN0
+C => Out.IN1
+D => Out.IN1
+D => Out.IN1
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|StateMachine|NextState1:inst3
+Clock => Out.IN0
+Clock => Out.IN0
+B => ~NO_FANOUT~
+C => ~NO_FANOUT~
+D => Out.IN1
+D => Out.IN1
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,8 @@
+|NextState3
+Clock => Out.IN0
+B => Out.IN1
+C => Out.IN1
+D => Out.IN1
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+

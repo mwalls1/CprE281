@@ -1,0 +1,26 @@
+module seven_seg_decoder(A, B, C, D, E ,F ,G, W, X, Y, Z);
+	input W, X, Y, Z;
+	output A, B, C, D, E, F, G;
+	always@(W or X or Y or Z)
+	begin
+		case({W, X, Y, Z})
+			4'b0000: A = 'b0, B = 'b0, C = 'b0, D = 'b0, E = 'b0, F = 'b0, G = 'b1;
+			4'b0001: A = 'b1, B = 'b0, C = 'b0, D = 'b1, E = 'b1, F = 'b1, G = 'b1;
+			4'b0010: A = 'b0, B = 'b0, C = 'b1, D = 'b0, E = 'b0, F = 'b1, G = 'b0;
+			4'b0011: A = 'b0, B = 'b0, C = 'b0, D = 'b0, E = 'b1, F = 'b1, G = 'b0;
+			4'b0100: A = 'b1, B = 'b0, C = 'b0, D = 'b0, E = 'b1, F = 'b0, G = 'b0;
+			4'b0101: A = 'b0, B = 'b1, C = 'b0, D = 'b0, E = 'b1, F = 'b0, G = 'b0;
+			4'b0110: A = 'b0, B = 'b1, C = 'b0, D = 'b0, E = 'b0, F = 'b0, G = 'b0;
+			4'b0111: A = 'b0, B = 'b0, C = 'b0, D = 'b1, E = 'b1, F = 'b1, G = 'b1;
+			4'b1000: A = 'b0, B = 'b0, C = 'b0, D = 'b0, E = 'b0, F = 'b0, G = 'b0;
+			4'b1001: A = 'b0, B = 'b0, C = 'b0, D = 'b0, E = 'b1, F = 'b0, G = 'b0;
+			4'b1010: A = 'b0, B = 'b0, C = 'b0, D = 'b1, E = 'b0, F = 'b0, G = 'b0;
+			4'b1011: A = 'b1, B = 'b1, C = 'b0, D = 'b0, E = 'b0, F = 'b0, G = 'b0;
+			4'b1100: A = 'b0, B = 'b1, C = 'b1, D = 'b0, E = 'b0, F = 'b0, G = 'b1;
+			4'b1101: A = 'b1, B = 'b0, C = 'b0, D = 'b0, E = 'b0, F = 'b1, G = 'b0;
+			4'b1110: A = 'b0, B = 'b1, C = 'b1, D = 'b0, E = 'b0, F = 'b0, G = 'b0;
+			4'b1111: A = 'b0, B = 'b1, C = 'b1, D = 'b1, E = 'b0, F = 'b0, G = 'b0;
+		endcase
+	end
+endmodule
+			

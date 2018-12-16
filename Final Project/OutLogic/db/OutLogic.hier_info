@@ -1,0 +1,14 @@
+|OutLogic
+A => OutMux.IN1
+A => Out2.IN0
+B => OutMux.IN0
+B => Out2.IN1
+C => Out2.IN1
+C => Out0.DATAIN
+C => OutMux.IN1
+Out2 <= Out2.DB_MAX_OUTPUT_PORT_TYPE
+Out1 <= <GND>
+Out0 <= C.DB_MAX_OUTPUT_PORT_TYPE
+OutMux <= OutMux.DB_MAX_OUTPUT_PORT_TYPE
+
+

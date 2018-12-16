@@ -1,0 +1,15 @@
+|Register
+Output <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Clock => inst.CLK
+In => multiplexer:inst6.Y
+Load => multiplexer:inst6.S
+
+
+|Register|multiplexer:inst6
+X => Out.IN0
+Y => Out.IN0
+S => Out.IN1
+S => Out.IN1
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+

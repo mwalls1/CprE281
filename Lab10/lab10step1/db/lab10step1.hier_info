@@ -1,0 +1,12 @@
+|lab10step1
+O1 <= int1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => int1.CLK
+Clk => inst2.CLK
+Clk => inst3.CLK
+Clk => inst4.CLK
+Indata => int1.DATAIN
+O2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+O4 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

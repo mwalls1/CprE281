@@ -1,0 +1,29 @@
+module ShiftAdd(M, R, Out);
+	input [7:0] M, [7:0] R;
+	output [15:0] Out;
+	reg [15:0] T = R;
+	reg[16:0] P = {T, 1'b0};
+	reg [15:0] MP = {M,8'b0};
+	reg [15:0] MM;
+	for(i = 15; i >= 8; i = i-1)
+	begin
+		MM[i] = !MP[i];
+	end
+	MM = MM+1;
+	for(j = 0; j < 8; j = j+1)
+	begin
+		if(P[1] = 1 && P[0] = 0)
+			begin
+			P = P+MM;
+			end
+		if(P[0] = 1 && P[1] = 0)
+			begin
+			P = P+MP;
+			end
+		P = P>>>1;
+	end
+	for(k = 0; k <16; k = k +1)
+	begin
+		Out[k] = P[k+1];
+	end
+endmodule

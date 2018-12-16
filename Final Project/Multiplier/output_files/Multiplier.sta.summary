@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ClockShift'
+Slack : -27.098
+TNS   : -283.998
+
+Type  : Slow 1200mV 85C Model Setup 'ClockRegisters'
+Slack : -0.836
+TNS   : -6.832
+
+Type  : Slow 1200mV 85C Model Hold 'ClockRegisters'
+Slack : 0.330
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockShift'
+Slack : 1.082
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockRegisters'
+Slack : -3.000
+TNS   : -42.835
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockShift'
+Slack : -3.000
+TNS   : -22.275
+
+Type  : Slow 1200mV 0C Model Setup 'ClockShift'
+Slack : -24.421
+TNS   : -256.844
+
+Type  : Slow 1200mV 0C Model Setup 'ClockRegisters'
+Slack : -0.679
+TNS   : -5.086
+
+Type  : Slow 1200mV 0C Model Hold 'ClockRegisters'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockShift'
+Slack : 0.991
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockRegisters'
+Slack : -3.000
+TNS   : -42.835
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockShift'
+Slack : -3.000
+TNS   : -22.275
+
+Type  : Fast 1200mV 0C Model Setup 'ClockShift'
+Slack : -12.300
+TNS   : -127.927
+
+Type  : Fast 1200mV 0C Model Setup 'ClockRegisters'
+Slack : 0.055
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockRegisters'
+Slack : 0.086
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockShift'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockRegisters'
+Slack : -3.000
+TNS   : -39.071
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockShift'
+Slack : -3.000
+TNS   : -20.611
+
+------------------------------------------------------------

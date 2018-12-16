@@ -1,0 +1,185 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Hex7A",
+					"strict" : false
+				},
+				{
+					"name" : "Hex7B",
+					"strict" : false
+				},
+				{
+					"name" : "Hex7C",
+					"strict" : false
+				},
+				{
+					"name" : "Hex7D",
+					"strict" : false
+				},
+				{
+					"name" : "Hex7E",
+					"strict" : false
+				},
+				{
+					"name" : "Hex7F",
+					"strict" : false
+				},
+				{
+					"name" : "Hex7G",
+					"strict" : false
+				},
+				{
+					"name" : "Hex6A",
+					"strict" : false
+				},
+				{
+					"name" : "Hex6B",
+					"strict" : false
+				},
+				{
+					"name" : "Hex6C",
+					"strict" : false
+				},
+				{
+					"name" : "Hex6D",
+					"strict" : false
+				},
+				{
+					"name" : "Hex6E",
+					"strict" : false
+				},
+				{
+					"name" : "Hex6F",
+					"strict" : false
+				},
+				{
+					"name" : "Hex6G",
+					"strict" : false
+				},
+				{
+					"name" : "Hex5A",
+					"strict" : false
+				},
+				{
+					"name" : "Hex5B",
+					"strict" : false
+				},
+				{
+					"name" : "Hex5C",
+					"strict" : false
+				},
+				{
+					"name" : "Hex5D",
+					"strict" : false
+				},
+				{
+					"name" : "Hex5E",
+					"strict" : false
+				},
+				{
+					"name" : "Hex5F",
+					"strict" : false
+				},
+				{
+					"name" : "Hex5G",
+					"strict" : false
+				},
+				{
+					"name" : "Hex4A",
+					"strict" : false
+				},
+				{
+					"name" : "Hex4B",
+					"strict" : false
+				},
+				{
+					"name" : "Hex4C",
+					"strict" : false
+				},
+				{
+					"name" : "Hex4D",
+					"strict" : false
+				},
+				{
+					"name" : "Hex4E",
+					"strict" : false
+				},
+				{
+					"name" : "Hex4F",
+					"strict" : false
+				},
+				{
+					"name" : "Hex4G",
+					"strict" : false
+				},
+				{
+					"name" : "Z1",
+					"strict" : false
+				},
+				{
+					"name" : "Y1",
+					"strict" : false
+				},
+				{
+					"name" : "X1",
+					"strict" : false
+				},
+				{
+					"name" : "W1",
+					"strict" : false
+				},
+				{
+					"name" : "Z2",
+					"strict" : false
+				},
+				{
+					"name" : "Y2",
+					"strict" : false
+				},
+				{
+					"name" : "X2",
+					"strict" : false
+				},
+				{
+					"name" : "W2",
+					"strict" : false
+				},
+				{
+					"name" : "Z3",
+					"strict" : false
+				},
+				{
+					"name" : "Y3",
+					"strict" : false
+				},
+				{
+					"name" : "X3",
+					"strict" : false
+				},
+				{
+					"name" : "W3",
+					"strict" : false
+				},
+				{
+					"name" : "Z4",
+					"strict" : false
+				},
+				{
+					"name" : "Y4",
+					"strict" : false
+				},
+				{
+					"name" : "X4",
+					"strict" : false
+				},
+				{
+					"name" : "W4",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
