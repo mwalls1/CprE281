@@ -1,0 +1,16 @@
+|FtOMultiplexer
+W => Out.IN1
+X => Out.IN1
+Y => Out.IN1
+Z => Out.IN1
+S1 => Out.IN0
+S1 => Out.IN0
+S1 => Out.IN0
+S1 => Out.IN0
+S2 => Out.IN1
+S2 => Out.IN1
+S2 => Out.IN1
+S2 => Out.IN1
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+
